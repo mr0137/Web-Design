@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Lab1_Hnatenko</title>
+    <script async src="clock.js"></script>
+    <script async src="non_stopped_clock.js"></script>
+    <link type="text/css" media="all" rel="stylesheet" href="main.css" />
+</head>
+<body onLoad="startclock();" >
+   
+    <div id="container">
+        <FORM NAME="alert" novalidate>
+            <div id="main_menu">
+                <h1>Будильники:</h1>
+                <output class="all" typeof="text" name="all" value="00:00:00 -- 00.00" height="15"></output>
+            </div>
+            <div id="header">
+                <br />
+                <text>Текущее Время и Дата</text>
+                <br />
+                <h2><output name="time" value="script doesn't load"></output></h2>
+            </div>
+            <div id="content">
+                <div class="set_time">
+                    <input name="time_01"  typeof="text" value="11" size="2" />:
+                    <input name="time_02"  typeof="text" value="11" size="2" />:
+                    <input name="time_03"  typeof="text" value="11" size="2" />
+                    <input name="time_04"  typeof="text" value="AM" size="2" />
+                    <input name="time_05"  typeof="text" value="30" size="2" />
+                    <input name="time_06"  typeof="text" value="10" size="2" />
+                </div>
+                <input class="buttons long" type="button" value="Установить время" onclick="setalert();">
+                <input class="buttons" type="button" value="Сбросить все" onclick="quit();">
+            </div>
+            <div id="footer">
+                <br />
+                <text><i>Лабораторна Робота №2 </i></text>
+                <br /><br />
+                <text><i>Виконав: Гнатенко В. Д.</i></text>
+            </div>
+        </FORM></div>
+        
+</body>

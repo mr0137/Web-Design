@@ -1,0 +1,94 @@
+html, body 
+{
+    margin: 0px;
+    padding: 0px;
+    background: gray;
+}
+#container 
+{
+    width: 1280px;
+    height: 1000px;
+    margin: auto;
+    font-style: initial;
+    color: black;
+    background: white;
+}
+#main_menu /*Будильники*/ 
+{
+    margin: 150px 0;
+    text-align: left;
+    height: 770px;
+    width: 350px;
+    float: right;
+    background: #084341;
+    clear: both;
+}
+#header 
+{
+    height: 150px;
+    text-align: justify;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 35px;
+}
+#main_menu h1
+{
+    margin: 25px 25px;
+}
+#header h2 
+{
+    float: right;
+    font-size: 55px;
+    font-style: normal;
+    margin: 0 25px;
+}
+#content 
+{
+    height: 745px;
+    font-size: 25px;
+    letter-spacing: -0.04em;
+}
+#footer 
+{
+    height: 120px;
+    text-align: center;
+    color: white;
+    background: #224D4C;
+}
+output 
+{
+    text-align: center;
+    hyphens: manual;
+
+}
+.buttons
+{
+    width:300px;
+    height:140px;
+    font-size:35px;
+}
+.buttons.long 
+{
+    margin: 40px 60px;
+    width: 440px;
+    height: 140px;
+    font-size: 35px;
+}
+
+.buttons:hover
+{
+    color: grey;
+}
+.all 
+{
+    font-size: 40px;
+}
+.set_time{
+    text-align: center;
+    margin: 25px 0;
+    
+}
+.set_time input 
+{
+        font-size: 44px;
+}

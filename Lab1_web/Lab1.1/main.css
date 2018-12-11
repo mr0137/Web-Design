@@ -1,0 +1,80 @@
+html, body 
+{
+    margin: 0px;
+    padding: 0px;
+}
+#container 
+{
+    width: 1280px;
+    height: 1040px;
+    margin: auto;
+    font-style: initial;
+    color: black;
+    background: white;
+}
+#main_menu /*Μενώ*/ 
+{
+    margin: 150px 0;
+    text-align: left;
+    height: 770px;
+    width: 350px;
+    float: right;
+    background: #084341;
+    clear: both;
+}
+#main_menu ul a 
+{
+    width: 100%;
+    line-height: 30px;
+    color: #4EB3AF;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main_menu ul a:hover, #main_menu ul a.active 
+{
+    color: black;
+    font-size: 17px;
+    background: #224D4C;
+    padding: 1px 0 2px;
+}
+#header 
+{
+    height: 150px;
+    text-align: justify;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 35px;
+}
+#header h1 
+{
+    margin: 10px;
+    float: right;
+    font-size: 35px;
+    font-style: normal;
+}
+#content 
+{
+    height: 330px;
+    font-size: 25px;
+    letter-spacing: -0.04em;
+}
+#sidebar 
+{
+    height: 390px;
+    font-size: 25px;
+    letter-spacing: -0.04em;
+}
+#footer 
+{
+    height: 120px;
+    text-align: center;
+    color: white;
+    background: #224D4C;
+}
+.scale 
+{
+    margin: 5px;
+    width: 920px;
+    height: 720px;
+}

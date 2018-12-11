@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3_Hnatenko</title>
+    <script defer src="clock.js"></script>
+    <link type="text/css" media="all" rel="stylesheet" href="main.css" />
+</head>
+
+<body class="body">
+    <div id="container">
+        <FORM NAME="alert" novalidate>
+            <div id="header">
+                <div>Текущее Время и Дата</div>
+                <div>
+                    <output name="time" value="script doesn't load"></output>
+                </div>
+            </div>
+            <div class="main">
+                <div id="content">
+                    <div class="set_clock">
+                        <div class="set_time">
+                            <input name="time_01" type="number" value="11" min="0" max="12" style="width:70px" />:
+                            <input name="time_02" type="number" value="11" min="00" max="59" style="width:70px" />:
+                            <input name="time_03" type="number" value="11" min="00" max="59" style="width:70px" />
+                            <input name="time_04" type="text" value="AM" style="width:70px" />
+                            <input name="time_05" type="number" value="30" min="00" max="31" style="width:70px" />
+                            <input name="time_06" type="number" value="10" min="00" max="12" style="width:70px" />
+                        </div>
+                        <input class="buttons long set_alert" type="button" value="Установить">
+                    </div>
+
+                    <div class="delete">
+                        <input class="buttons delete_all" type="button" value="Удалить всё" style="margin-right:55px;">
+                        <input class="buttons long delete_this" type="button" value="Удалить">
+                        <input name="bud" type="number" value="1" min="1" max="256" style="width:70px; font-size:35px" />
+                    </div>
+                </div>
+                <div id="main_menu">
+                    <h1>Будильники:</h1>
+                    <output class="all" typeof="text" name="all" value="00:00:00 -- 00.00"></output>
+
+                </div>
+            </div>
+        </FORM>
+    </div>
+
+</body>
+</html>
